@@ -117,16 +117,14 @@ Instalar dependências e iniciar (atalho):
 npm run install-start
 ```
 
+### 6. Acessar a Aplicação
+Abra no navegador o arquivo:
+public/index.html
+O servidor rodará em: http://localhost:3000
 
+###📌 Observações
+Certifique-se de configurar corretamente as chaves de API para acesso às funcionalidades de previsão climática.
+O projeto pode ser facilmente adaptado para deploy em nuvem (Heroku, Vercel, etc.) ou rodar em containers Docker.
 
-6. Acessar a Aplicação
-  Abra no navegador o arquivo:
-  public/index.html
-  O servidor rodará em: http://localhost:3000
-
-📌 Observações
-  Certifique-se de configurar corretamente as chaves de API para acesso às funcionalidades de previsão climática.
-  O projeto pode ser facilmente adaptado para deploy em nuvem (Heroku, Vercel, etc.) ou rodar em containers Docker.
-
-👨‍💻 Equipe
-  Projeto desenvolvido durante o Hackathon 2025 com foco em inovação para o agronegócio sustentável.
+###👨‍💻 Equipe
+Projeto desenvolvido durante o Hackathon 2025 com foco em inovação para o agronegócio sustentável.

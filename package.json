@@ -1,0 +1,21 @@
+{
+  "name": "agroclima-backend",
+  "version": "1.0.0",
+  "description": "API para o projeto AgroClima Preditivo",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "start-nodemon": "npx nodemon server.js",
+    "install-start": "npm install cors dotenv express mysql2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mysql2": "^3.14.3"
+  }
+}

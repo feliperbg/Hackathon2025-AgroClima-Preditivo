@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroClima Preditivo - Impacto Climático</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/">AgroClima Preditivo</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Predição Climática</a></li>
+                    <!-- ** LINK ATUALIZADO ** -->
+                    <li><a href="/culturas" class="active">Culturas e Clima</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="card">
+            <h2>Análise de Culturas e a Ação Climática (ODS 13)</h2>
+            <p>Selecione uma cultura para entender o seu impacto no clima, as suas vulnerabilidades e como práticas sustentáveis podem fortalecer a sua resiliência.</p>
+             <div class="form-group">
+                <label for="semente-info">Selecione a Cultura</label>
+                <select id="semente-info" name="semente-info" required>
+                    <option value="">A carregar...</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="loading-info" class="hidden">
+            <div class="spinner"></div>
+        </div>
+        
+        <div id="info-resultado">
+            <!-- O conteúdo da análise será inserido aqui -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AgroClima Preditivo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- ** SCRIPT ATUALIZADO ** -->
+    <script src="/js/culturas.js"></script>
+</body>
+</html>

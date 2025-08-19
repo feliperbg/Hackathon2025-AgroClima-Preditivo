@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroClima Preditivo - Análise Climática</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/">AgroClima Preditivo</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="/" class="active">Predição Climática</a></li>
+                    <!-- ** LINK ATUALIZADO ** -->
+                    <li><a href="/culturas">Culturas e Clima</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="predicao-form" class="card">
+            <h2>Análise de Risco Climático</h2>
+            <p>Selecione a localização e a cultura para obter uma análise preditiva para os próximos 15 dias.</p>
+            <form id="location-form">
+                <div class="form-group">
+                    <label for="estado">Estado</label>
+                    <select id="estado" name="estado" required>
+                        <option value="">A carregar...</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="municipio">Município</label>
+                    <select id="municipio" name="municipio" required disabled>
+                        <option value="">Selecione um estado</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="semente">Cultura</label>
+                    <select id="semente" name="semente" required disabled>
+                        <option value="">Selecione um município</option>
+                    </select>
+                </div>
+                <button type="submit" id="submit-btn">Gerar Análise</button>
+            </form>
+        </div>
+
+        <div id="loading" class="hidden">
+            <div class="spinner"></div>
+            <p>A analisar dados... Isto pode demorar um momento.</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AgroClima Preditivo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

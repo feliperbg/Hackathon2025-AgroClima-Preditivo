@@ -101,7 +101,7 @@ VISUAL_CROSSING_API_KEY=sua_chave_de_api_do_visual_crossing
 ```bash
 PORT=3000
 ```
-5. Iniciar o Servidor
+###5. Iniciar o Servidor
 Produção:
 ```bash
 npm start

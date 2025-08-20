@@ -38,7 +38,6 @@ A ferramenta oferece **análises climáticas preditivas** para a agricultura, au
 - Font Awesome  
 
 ### APIs Externas
-- NASA POWER  
 - Google Gemini  
 - Visual Crossing Weather  
 

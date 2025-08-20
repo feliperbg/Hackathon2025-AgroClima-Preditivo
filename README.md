@@ -15,7 +15,6 @@ A ferramenta oferece **análises climáticas preditivas** para a agricultura, au
 
 - **Integração com APIs Externas**  
   Dados de fontes confiáveis como:
-  - [NASA POWER](https://power.larc.nasa.gov/) (dados agro-hidrológicos)  
   - [Visual Crossing Weather](https://www.visualcrossing.com/) (previsões meteorológicas)  
   - [Google Gemini](https://deepmind.google/technologies/gemini/) (análise via IA)  
 
@@ -122,9 +121,9 @@ Abra no navegador o arquivo:
 public/index.html
 O servidor rodará em: http://localhost:3000
 
-###📌 Observações
+### 📌 Observações
 Certifique-se de configurar corretamente as chaves de API para acesso às funcionalidades de previsão climática.
 O projeto pode ser facilmente adaptado para deploy em nuvem (Heroku, Vercel, etc.) ou rodar em containers Docker.
 
-###👨‍💻 Equipe
+### 👨‍💻 Equipe
 Projeto desenvolvido durante o Hackathon 2025 com foco em inovação para o agronegócio sustentável.
